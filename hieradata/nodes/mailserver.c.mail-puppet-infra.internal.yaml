@@ -1,3 +1,10 @@
 ---
 classes:
  - 'role::mailserver'
+
+profile::server::fail2ban_jails: 
+ - 'sshd'
+ - 'sshd-ddos'
+ - 'postfix'
+ - 'dovecot'
+ - 'sieve'
