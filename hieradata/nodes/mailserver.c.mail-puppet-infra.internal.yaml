@@ -19,3 +19,4 @@ mail::virtual_domains:
 mail::virtual_addresses:
   'alnx@alnx.org': 'Alex'
   'alex@alnx.org': 'Alex'
+mail::security_certbot_email: 'alnx@alnx.org'
