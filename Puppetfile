@@ -1,9 +1,14 @@
 forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
+
+## Puppet / voc pupuli mods
 mod 'puppetlabs/ntp'
 mod "puppetlabs/stdlib"
 mod "puppet/extlib"
+mod "puppetlabs/inifile"
+mod "puppetlabs/vcsrepo"
+
 
 ## Mailserver + deps
 mod 'jethrocarr-mail', '0.1.0'
