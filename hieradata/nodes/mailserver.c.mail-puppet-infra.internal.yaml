@@ -8,3 +8,14 @@ profile::server::fail2ban_jails:
  - 'postfix'
  - 'dovecot'
  - 'sieve'
+
+mail::server_hostname: 'mailserver.alnx.org'
+mail::server_label: 'ALNX mail server'
+mail::enable_antispam: true
+mail::enable_graylisting: false
+mail::virtual_domains:
+ - mailserver.alnx.org
+ - alnx.org
+mail::virtual_addresses:
+  'alnx@alnx.org': 'Alex'
+  'alex@alnx.org': 'Alex'

@@ -12,6 +12,7 @@ class profile::server (
   # cf. https://forge.puppet.com/dhoppe/fail2ban/readme
   class { 'fail2ban':
     config_file_template => 'fail2ban/Core/etc/fail2ban/jail.conf.erb',
-    jails => $fail2ban_jails,
+    jails                => $fail2ban_jails,
   }
+
 }

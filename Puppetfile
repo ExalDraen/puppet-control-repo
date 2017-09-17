@@ -22,3 +22,6 @@ mod 'postfix',
 
 ## Fail2ban
 mod 'dhoppe-fail2ban', '1.3.4'
+
+## firewalld
+#mod 'crayfishx-firewalld', '3.3.2'
