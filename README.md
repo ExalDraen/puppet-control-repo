@@ -1,5 +1,5 @@
 Puppet control repo
-=================
+===================
 
   * [Source](#source)
 
