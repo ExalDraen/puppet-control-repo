@@ -11,7 +11,9 @@ mod "puppetlabs/vcsrepo"
 
 
 ## Mailserver + deps
-mod 'jethrocarr-mail', '0.1.0'
+mod 'alnx-mail',
+  :git    => 'https://github.com/ExalDraen/puppet-mail.git',
+  :branch => 'master'
 
 # Extra package repositories
 mod 'stahnma-epel', '1.2.2'
